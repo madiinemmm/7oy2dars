@@ -12,9 +12,9 @@ const UserTable = ({ users, removeUser }) => {
           <thead>
             <tr style={{ backgroundColor: '#D6C1FD', fontSize: '19px' }}>
               <th style={{ padding: '8px', border: '2px solid #fff', color: '#240046'}}>ID</th>
-              <th style={{ padding: '8px', border: '2px solid #fff', color: '#240046' }}>Ism</th>
+              <th style={{ padding: '8px', border: '2px solid #fff', color: '#240046' }}>Name</th>
               <th style={{ padding: '8px', border: '2px solid #fff', color: '#240046' }}>Email</th>
-              <th style={{ padding: '8px', border: '2px solid #fff', color: '#240046' }}>Actions</th> {/* Ochirish tugmasi uchun ustun */}
+              <th style={{ padding: '8px', border: '2px solid #fff', color: '#240046' }}>Actions</th> 
             </tr>
           </thead>
           <tbody>
