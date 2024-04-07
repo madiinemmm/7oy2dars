@@ -14,7 +14,7 @@ const UserTable = ({ users, removeUser }) => {
               <th style={{ padding: '8px', border: '2px solid #fff', color: '#240046'}}>ID</th>
               <th style={{ padding: '8px', border: '2px solid #fff', color: '#240046' }}>Ism</th>
               <th style={{ padding: '8px', border: '2px solid #fff', color: '#240046' }}>Email</th>
-              <th style={{ padding: '8px', border: '2px solid #fff', color: '#240046' }}>Ochirish</th> {/* Ochirish tugmasi uchun ustun */}
+              <th style={{ padding: '8px', border: '2px solid #fff', color: '#240046' }}>Actions</th> {/* Ochirish tugmasi uchun ustun */}
             </tr>
           </thead>
           <tbody>
