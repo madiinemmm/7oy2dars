@@ -1,7 +1,7 @@
+// actions.js
 
 export const ADD_USER = 'ADD_USER';
 export const REMOVE_USER = 'REMOVE_USER';
-
 
 export const addUser = (userData) => {
   return {
@@ -9,7 +9,6 @@ export const addUser = (userData) => {
     payload: userData
   };
 };
-
 
 export const removeUser = (userId) => {
   return {
